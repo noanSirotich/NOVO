@@ -1,0 +1,44 @@
+body {
+    background-color: #333;
+    color: goldenrod;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1  {
+    font-size: xx-large;
+    font-style: italic;
+}
+
+
+
+.container {
+display: flex;
+flex-direction: column;
+height: 100vh;
+border: 5px groove #eee;
+}
+
+.top-div {
+background-color: #333;
+height: 20%;
+border: 5px groove #eee;
+}
+
+.main-div {
+flex-grow: 1;
+display: flex;
+
+}
+
+.left-div {
+background-color: #333;
+width: 20%;
+border: 5px groove #eee;
+}
+
+.content-div {
+background-color: #333;
+flex-grow: 1;
+border: 5px groove #eee;
+}
